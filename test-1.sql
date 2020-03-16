@@ -25,4 +25,4 @@ INDX.index_id,
 INDX.name
 ORDER BY Object_Name(INDX.object_id),
 (SUM(ALOC.total_pages)*8/1024) DESC
-GO
+GO   
